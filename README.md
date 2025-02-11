@@ -9,6 +9,7 @@ Chunk:
 4. Manually input known event indices for current .txt file (skip if events .csv is loaded)
 5. Extract event indices from imported /csv
   - also creates a trimmed data frame from event1 (BFC) -25 to event5 (EFT) +25
+  - the number of events can be adjusted as needed, as can the buffer at the start and end
 6. Using the trimmed data frame, generate side-on segments plot, renders and saves the gif as the original trial name + "(side)"
   - smoother renders can be obtained by opening html file from the viewer tab
 7. Using the trimmed data frame, generate front-on segments plot, renders and saves the gif as the original trial name + "(front)"
