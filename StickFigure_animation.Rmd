@@ -7,7 +7,7 @@ output: html_document
 
 If this is the first time using it, install gganimate -  install.packages("gganimate")
 
-```{r Setup, include=FALSE}
+```{r Setup, include=FALSE, eval=FALSE}
 # Load the required packages from the library
 library(readr)
 library(tidyverse)
@@ -284,7 +284,7 @@ stick_front <- ggplot(df_final) +
 
   # render the stick figure animation 
   animate(stick_front, nframes = 100, fps = 30, renderer = gifski_renderer())
-  
+
   # save the animation
 # anim_save(paste0(file_name, " (front).gif"), stick_front)
 ```  
