@@ -289,7 +289,7 @@ stick_front <- ggplot(df_final) +
 # anim_save(paste0(file_name, " (front).gif"), stick_front)
 ```  
   
-```{r BFC, include=FALSE}
+```{r BFC, include=FALSE, eval=FALSE}
 df_BFC <- df[BFC_index, ]
 
 # side view
@@ -420,7 +420,7 @@ stick_BFC_front <- ggplot(df_BFC) +
 ggsave(stick_BFC_front, filename = paste0(file_name, " - BFC (front).png"), dpi = 600)
 ```
 
-```{r FFC, include=FALSE}
+```{r FFC, include=FALSE, eval=FALSE}
 df_FFC <- df[FFC_index, ]
 
 # side view
@@ -552,7 +552,7 @@ ggsave(stick_FFC_front, filename = paste0(file_name, " - FFC (front).png"), dpi 
 
 ```
 
-```{r MAW, include=FALSE}
+```{r MAW, include=FALSE, eval=FALSE}
 df_MAW <- df[MAW_index, ]
 
 # side view
@@ -683,7 +683,7 @@ stick_MAW_front <- ggplot(df_MAW) +
 ggsave(stick_MAW_front, filename = paste0(file_name, " - MAW (front).png"), dpi = 600)
 ```
 
-```{r BR, include=FALSE}
+```{r BR, include=FALSE, eval=FALSE}
 df_BR <- df[BR_index, ]
 
 # side view
@@ -814,7 +814,7 @@ stick_BR_front <- ggplot(df_BR) +
 ggsave(stick_BR_front, filename = paste0(file_name, " - BR (front).png"), dpi = 600)
 ```
 
-```{r EFT, include=FALSE}
+```{r EFT, include=FALSE, eval=FALSE}
 df_EFT <- df[EFT_index, ]
 
 # side view
